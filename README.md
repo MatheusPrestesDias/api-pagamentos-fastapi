@@ -1,13 +1,13 @@
-# Basic Payment API
+# API Básica de Pagamento
 
-This project provides a simple payment API using FastAPI, designed for easy integration with Azure API Management.
+Este projeto fornece uma API simples de pagamento usando FastAPI, projetada para fácil integração com o Azure API Management.
 
 ## Endpoints
-- `POST /payments`: Create a new payment
-- `GET /payments/{payment_id}`: Retrieve payment status
-- `GET /payments`: List all payments
+- `POST /payments`: Cria um novo pagamento
+- `GET /payments/{payment_id}`: Consulta o status de um pagamento
+- `GET /payments`: Lista todos os pagamentos
 
-## Running the API
+## Como executar a API
 
 1. Ative o ambiente virtual:
    ```powershell
